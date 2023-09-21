@@ -20,6 +20,7 @@ def onClick():
     return cam_bien1, cam_bien2
 
 window = tk.Tk()
+window.attributes('-fullscreen', True)
 window.title("Python App")
 window.geometry("600x400")
 
